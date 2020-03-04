@@ -4,7 +4,6 @@
     max-width: 960px;
     display: flex;
     flex-direction: column;
-    position: relative;
   }
 
   /* style for header */
@@ -14,7 +13,6 @@
     padding: 1%;
     display: flex;
     flex-direction: column-reverse;
-    position: absolute;
   }
 
   .box_prev-site {
