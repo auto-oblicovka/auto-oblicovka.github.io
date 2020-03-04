@@ -1,4 +1,4 @@
-@media screen  , ( orientation: portrait ) {
+@media screen  , ( max-width: 640px ) {
 
   .box {
     max-width: 960px;
