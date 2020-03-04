@@ -1,7 +1,7 @@
 @media screen , ( orientation: portrait ) {
 
   .box {
-    max-width: 640px;
+    max-width: 960px;
     display: flex;
     flex-direction: column;
   }
