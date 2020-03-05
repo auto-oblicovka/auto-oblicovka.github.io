@@ -34,4 +34,26 @@
   .name-site {
     width: 100%;
   }
+
+  /* style for navigation */
+  .box_navigation {
+    display: none;
+  }
+
+/* style for emblems */
+  .box_emblems {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+  }
 }
