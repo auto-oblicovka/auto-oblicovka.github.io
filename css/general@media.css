@@ -51,9 +51,29 @@
     flex-direction: column;
   }
 
+/* style for site-bar */
   .menu {
     width: 100%;
+    background-color: #000000;
     padding: 1%;
     display: flex;
   }
+
+  .menu_ul {
+    display: none;
+  }
+
+  .buttom-menu {
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border: solid #ffffff;
+    color: #ffffff;
+    font-size: 2em;
+  }
+
+
 }
