@@ -57,10 +57,30 @@
     background-color: #000000;
     padding: 1%;
     display: flex;
+    position: relative;
   }
 
   .menu_ul {
-    display: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    top: 6.5vh;
+    left: 1%;
+    width: 80%;
+    background-color: #aaaaaa;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .site_bar {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000000;
+    font-size: 0.6em;
+    text-decoration: none;
+    color: #000000;
   }
 
   .buttom-menu {
@@ -75,5 +95,16 @@
     font-size: 2em;
   }
 
+  .buttom-menu-zg {
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #505050;
+    border: solid #ffffff;
+    color: #ffffff;
+    font-size: 2em;
+  }
 
 }
