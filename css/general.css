@@ -72,6 +72,7 @@ main {
   /* style for content */
   .content {
     width: 70%;
+    height: 1000px;
     background-color: #000000;
     display: flex;
     flex-wrap: wrap;
