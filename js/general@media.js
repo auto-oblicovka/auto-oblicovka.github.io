@@ -1,20 +1,18 @@
-let fonSitBar = document.createElement('div');
-let spisok = document.createElement('div');
-
-
-let buttom = document.getElementById('buttom');
-
-
-fonSitBar.className = "siteBarFon";
-
-
-
-spisok.className = "spisok";
-
-
+let siteBarFon = document.getElementById('fonSitBar');
+    buttomMenuOff = document.getElementById('buttom-off');
+    buttomMenuOn = document.getElementById('buttom-on');
+    menuSiteBar = document.getElementById('menu');
 
 function menu() {
-  buttom.append(fonSitBar);
-  fonSitBar.append(spisok);
+  siteBarFon.className = "siteBarFonViev";
+  buttomMenuOff.style.display = "none";
+  buttomMenuOn.style.display = "flex";
+  menuSiteBar.style.display = "flex";
+}
 
+function closeMenu() {
+  siteBarFon.className = "siteBarFonNoViev";
+  buttomMenuOff.style.display = "flex";
+  buttomMenuOn.style.display = "none";
+  menuSiteBar.style.display = "none";
 }
