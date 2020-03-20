@@ -70,11 +70,14 @@
     </nav> <!-- Emblem -->
 
     <main>
-      <div class="menu" id="buttom"> <!-- site bar -->
-        <div class="buttom-menu"  onclick="menu()">
+      <div class="menu"> <!-- site bar -->
+        <div class="buttom-menu" id="buttom-off"  onclick="menu()">
           <p>МЕНЮ</p>
         </div>
-        <div class="site_bar-punkt1" onmouseover="visibleKamaz()" onmouseout="noVisibleKamaz()">
+        <div class="buttom-menu-action" id="buttom-on" onclick="closeMenu()">
+          <p>МЕНЮ</p>
+        </div>
+        <div class="site_bar-punkt1" id="menu" onmouseover="visibleKamaz()" onmouseout="noVisibleKamaz()">
           <a href="#">
             <div class="punkt1">
              КАМАЗ
@@ -111,10 +114,13 @@
       </div> <!-- site bar -->
 
       <div class="content"> <!-- content -->
+        <div class="siteBarFonNoViev" id="fonSitBar" onclick="closeMenu()">
+        </div>
         <img src="Tovar/KAMAZ/Bamper/Bamper5308,4308/KAMAZ_bamper5308,4308.jpeg">
 
 
-      </div> <!-- content -->
+      </div>
+     <!-- content -->
 
  </main>
  <footer>
