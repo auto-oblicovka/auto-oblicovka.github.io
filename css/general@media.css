@@ -15,6 +15,7 @@
     width: 100%;
     background-color: #000000;
     padding: 1%;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -64,6 +65,7 @@
     background-color: #000000;
     color: #ffffff;
     width: 100%;
+    margin-bottom: 3%;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -86,14 +88,19 @@
 /* Отображение кнопки сайт-бара */
   .buttom-menu {
     display: flex;
-    padding: 5px 30px;
-    border: 3px solid #ffffff;
+    font-size: 4em;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    padding: 0.5% 8%;
+    border: 0.3em solid #ffffff;
+    background-color: #000000;
   }
 
   .buttom-menu-action {
     display: none;
-    padding: 5px 30px;
-    border: 3px solid #ffffff;
+    font-size: 4em;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    padding: 1% 10%;
+    border: 0.3em solid #ffffff;
     background-color: #545454;
   }
 /* Отображение кнопки сайт-бара */
