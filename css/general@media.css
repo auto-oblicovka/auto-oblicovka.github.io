@@ -67,7 +67,6 @@
     width: 100%;
     margin-bottom: 3%;
     display: flex;
-    position: relative;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -88,7 +87,6 @@
 /* Отображение кнопки сайт-бара */
   .buttom-menu {
     display: flex;
-    width: auto;
     font-size: 4em;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     padding: 0.5% 8%;
@@ -98,7 +96,6 @@
 
   .buttom-menu-action {
     display: none;
-    width: auto;
     font-size: 4em;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     padding: 1% 10%;
