@@ -1,18 +1,16 @@
-let siteBarFon = document.getElementById('fonSitBar');
-    buttomMenuOff = document.getElementById('buttom-off');
-    buttomMenuOn = document.getElementById('buttom-on');
-    menuSiteBar = document.getElementById('menu');
+let buttomoff = document.getElementById('buttom-off');
+let buttomon  = document.getElementById('buttom-on');
+    sitbar = document.getElementById('fonSitBar');
+
 
 function menu() {
-  siteBarFon.className = "siteBarFonViev";
-  buttomMenuOff.style.display = "none";
-  buttomMenuOn.style.display = "flex";
-  menuSiteBar.style.display = "flex";
+  buttomoff.style.display = "none";
+  buttomon.style.display = "flex";
+  sitbar.className = "siteBarFonViev";
 }
 
 function closeMenu() {
-  siteBarFon.className = "siteBarFonNoViev";
-  buttomMenuOff.style.display = "flex";
-  buttomMenuOn.style.display = "none";
-  menuSiteBar.style.display = "none";
+  buttomoff.style.display = "flex";
+  buttomon.style.display = "none";
+  sitbar.className = "siteBarFonNoViev";
 }
