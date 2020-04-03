@@ -2,8 +2,12 @@
 
   .box {
     max-width: 960px;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
   }
 
   /* style for header */
@@ -111,7 +115,7 @@
 
 
 
-  
+
 
 
 /* style for content */
