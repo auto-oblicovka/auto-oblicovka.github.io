@@ -85,22 +85,12 @@
   }
 /* Отображение и удаление окна Сайт-бара */
 /* Отображение кнопки сайт-бара */
-  .buttom-menu {
-    display: flex;
-    font-size: 4em;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    padding: 0.5% 8%;
-    border: 0.3em solid #ffffff;
-    background-color: #000000;
+  #buttom-off {
+    width: 30%;
   }
 
-  .buttom-menu-action {
-    display: none;
-    font-size: 4em;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    padding: 1% 10%;
-    border: 0.3em solid #ffffff;
-    background-color: #545454;
+  #buttom-on {
+    width: 30%;
   }
 /* Отображение кнопки сайт-бара */
 
