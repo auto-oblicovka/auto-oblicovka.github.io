@@ -79,7 +79,6 @@
 <!-- Блок для сайтбара и контента -->
     <main>
 
-<!-- сайт-бар -->
   <!-- Сайт-бар для версии Descktop -->
       <div class="menu"> <!-- site bar -->
         <div class="site_bar-punkt1" id="menu" onmouseover="visibleKamaz()" onmouseout="noVisibleKamaz()">
@@ -125,19 +124,76 @@
 
           <img src="img/icon/Menu-on.jpg" style="display: none;" id="buttom-on" onclick="closeMenu()">
         <!-- Кнопки для сайтбара -->
-
       </div> <!-- site bar -->
       <!-- Сайт-бар для мобильной версии -->
-<!-- сайт-бар -->
 <!-- Контент страницы -->
       <div class="content"> <!-- content -->
 <!-- Меню сайтбара -->
-        <div class="siteBarFonNoViev" id="fonSitBar" onclick="closeMenu()">
+        <div class="siteBarFonNoViev" id="fonSitBar">
+          <!-- Область для сайт-бара -->
           <div class="site_bar_media-punkt1">
+
+            <!-- Меню сайт-бара -->
+            <!-- Пункт первого порядка КАМАЗ -->
+            <div class="punkt_1">
+              <span class="punkt_1_name">КАМАЗ</span>
+              <span class="punkt_1_drop_icon">
+                <img src="img/icon/dropdownnone.jpg" id="icon_drop_kamaz_close" style="display: block;" onclick="dropMenuKAMAZ()">
+                <img src="img/icon/dropdown.jpg" id="icon_drop_kamaz_open" style="display: none;" onclick="closeMenuKAMAZ()">
+              </span>
+            </div>
+            <!-- Дроп-меню второго порядка для пункта КАМАЗ -->
+              <!-- Контейнер для дроп-меню пункта КАМАЗ -->
+              <div style="display: none;" id="drop_kamaz">
+
+                <div class="punkt_1_1">
+                  <span>Бампер</span>
+                </div>
+                <div class="punkt_1_1">
+                  <span>Капот</span>
+                </div>
+                <div class="punkt_1_1">
+                  <span>Крылья</span>
+                </div>
+                <div class="punkt_1_1">
+                  <span>Подножки</span>
+                </div>
+                <div class="punkt_1_1">
+                  <span>Солн. козырьки</span>
+                </div>
+
+              </div>
+
+            <!-- Пункт первого порядка МАЗ -->
+            <div class="punkt_1">
+              <span class="punkt_1_name">МАЗ</span>
+              <span class="punkt_1_drop_icon">
+                <img src="img/icon/dropdownnone.jpg" id="icon_drop_maz_close" style="display: block;" onclick="dropMenuMAZ()">
+                <img src="img/icon/dropdown.jpg" id="icon_drop_maz_open" style="display: none;" onclick="closeMenuMAZ()">
+              </span>
+            </div>
+
+            <!-- Дроп-меню второго порядка для пункта МАЗ -->
+              <!-- Контейнер для дроп-меню пункта МАЗ -->
+              <div style="display: none;" id="drop_maz">
+
+                <div class="punkt_1_1">
+                  <span>Бампер</span>
+                </div>
+                <div class="punkt_1_1">
+                  <span>Фары</span>
+                </div>
+                
+
+              </div>
+
+
+            <!-- Меню сайт-бара -->
 
 
 
           </div>
+          <!-- Область для сайт-бара -->
         </div>
 <!-- Меню сайтбара -->
         <img src="Tovar/KAMAZ/Bamper/Bamper5308,4308/KAMAZ_bamper5308,4308.jpeg">
