@@ -25,9 +25,9 @@
 
 <!-- Навигационная панель -->
     <nav class="box_navigation"> <!-- Put' stranic-->
-     <ul class="nav_ul">
-      <li class="nav_li"><a class="nav_a" href="index.html">ГЛАВНАЯ</a></li>
-     </ul>
+     <div class="nav_ul">
+      <div class="nav_li"><a class="nav_a" href="index.html">ГЛАВНАЯ</a></div>
+    </div>
     </nav> <!-- Put' stranic-->
 
 <!-- Навигационная панель -->
@@ -40,7 +40,7 @@
         </a>
       </div>
       <div>
-        <a href="2.0kamaz_page.html">
+        <a href="kamaz_page.html">
           <img class="emblema" src="img/emblem/kamaz.jpg">
         </a>
       </div>
@@ -82,13 +82,13 @@
   <!-- Сайт-бар для версии Descktop -->
       <div class="menu"> <!-- site bar -->
         <div class="site_bar-punkt1" id="menu" onmouseover="visibleKamaz()" onmouseout="noVisibleKamaz()">
-          <a href="#">
+          <a href="kamaz_page.html">
             <div class="punkt1">
              КАМАЗ
             </div>
           </a>
           <div class="site_bar-punkt1-menu" id="site_bar-kamaz-menu">
-            <a href="#">
+            <a href="kamaz_bamper.html">
               <div class="site_bar-menu-punkt1-1">
                 Бампер
               </div>
@@ -115,6 +115,26 @@
          </a>
           </div>
         </div>
+
+        <div class="site_bar-punkt1" id="menu" onmouseover="visiblemaz()" onmouseout="noVisiblemaz()">
+          <a href="#">
+            <div class="punkt1">
+             МАЗ
+            </div>
+          </a>
+          <div class="site_bar-punkt1-menu" id="site_bar-maz-menu">
+            <a href="#">
+              <div class="site_bar-menu-punkt1-1">
+                Бампер
+              </div>
+            </a>
+            <a href="#">
+            <div class="site_bar-menu-punkt1-1">
+              Фары
+            </div>
+           </a>
+          </div>
+        </div>
       </div> <!-- site bar -->
       <!-- Сайт-бар для версии Descktop -->
       <!-- Сайт-бар для мобильной версии -->
@@ -131,12 +151,14 @@
 <!-- Меню сайтбара -->
         <div class="siteBarFonNoViev" id="fonSitBar">
           <!-- Область для сайт-бара -->
-          <div class="site_bar_media-punkt1">
+          <div class="site_bar_media-punkt1" id="siteBar">
 
             <!-- Меню сайт-бара -->
             <!-- Пункт первого порядка КАМАЗ -->
             <div class="punkt_1">
+              <a href="kamaz_page.html">
               <span class="punkt_1_name">КАМАЗ</span>
+            </a>
               <span class="punkt_1_drop_icon">
                 <img src="img/icon/dropdownnone.jpg" id="icon_drop_kamaz_close" style="display: block;" onclick="dropMenuKAMAZ()">
                 <img src="img/icon/dropdown.jpg" id="icon_drop_kamaz_open" style="display: none;" onclick="closeMenuKAMAZ()">
@@ -147,7 +169,9 @@
               <div style="display: none;" id="drop_kamaz">
 
                 <div class="punkt_1_1">
+                  <a href="kamaz_bamper.html">
                   <span>Бампер</span>
+                  </a>
                 </div>
                 <div class="punkt_1_1">
                   <span>Капот</span>
@@ -183,7 +207,7 @@
                 <div class="punkt_1_1">
                   <span>Фары</span>
                 </div>
-                
+
 
               </div>
 
@@ -196,7 +220,38 @@
           <!-- Область для сайт-бара -->
         </div>
 <!-- Меню сайтбара -->
-        <img src="Tovar/KAMAZ/Bamper/Bamper5308,4308/KAMAZ_bamper5308,4308.jpeg">
+      <div class="margin_content">
+        <a href="kamaz_page.html">
+        <div class="post">
+          <div class="name_post">
+            <h1>КАМАЗ</h1>
+          </div>
+          <div class="body_post">
+            <img class="img_post" src="img/Index_page_img/KAMAZ.jpeg">
+            <span class="text_post">
+              балаблаб алабала балаб алабалабабалбалл абабаббаллаюб албаблабалб
+              албалбалбал ббаллбаббаллаббал лббалбалббалбаллб абаллбалббал
+              блабалбалбалбалб алб баллбаббалл аббаллббалбал
+              ббалбаллб абаллбалббал
+            </span>
+          </div>
+        </div>
+       </a>
+        <div class="post">
+          <div class="name_post">
+            <h1>МАЗ</h1>
+          </div>
+          <div class="body_post">
+            <img class="img_post" src="img/Index_page_img/MAZ.jpg">
+            <span class="text_post">
+              балаблабалабала балаб алабалабабалбалл абабаббаллаюбалбаблабалб
+              албалбалба лббаллбаббаллаббалл ббалбалббалбалл бабаллбалббал
+              блабалбалбалбалб алб баллбаббалл аббаллббалбал
+              ббалбаллбабаллбалббал
+            </span>
+          </div>
+        </div>
+       </div>
       </div>
      <!-- content -->
 <!-- Контент страницы -->
@@ -206,7 +261,7 @@
  <footer>
   �������� �.� +79826900366
  </footer>
-  </div>
+</div>
 </body>
 <script src="js/general@media.js"></script>
 <script src="js/general.js"></script>
