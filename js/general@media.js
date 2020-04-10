@@ -8,13 +8,23 @@ function menu() {
   buttomoff.style.display = "none";
   buttomon.style.display = "flex";
   sitbar.className = "siteBarFonViev";
+
 }
 
 function closeMenu() {
   buttomoff.style.display = "flex";
   buttomon.style.display = "none";
   sitbar.className = "siteBarFonNoViev";
+  closeMenuKAMAZ();
+  closeMenuMAZ();
 }
+
+
+
+
+
+
+
 
 // Выпадение дроп-меню КАМАЗ
 let dropKAMAZ = document.getElementById('drop_kamaz');
@@ -25,7 +35,7 @@ function dropMenuKAMAZ() {
   icon_drop_Kamaz_close.style.display = "none";
   icon_drop_kamaz_open.style.display = "block";
   dropKAMAZ.style.display = "flex";
-  closeMenuMAZ()
+  closeMenuMAZ();
 }
 
 function closeMenuKAMAZ() {
@@ -43,7 +53,7 @@ function dropMenuMAZ() {
   icon_drop_maz_close.style.display = "none";
   icon_drop_maz_open.style.display = "block";
   dropMAZ.style.display = "flex";
-  closeMenuKAMAZ()
+  closeMenuKAMAZ();
 }
 
 function closeMenuMAZ() {
