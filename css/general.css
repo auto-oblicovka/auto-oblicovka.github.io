@@ -1,13 +1,17 @@
 /* style for page */
 body {
+  margin: 0;
+  padding: 1% 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
   display: flex;
   justify-content: center;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 .box {
-  max-width: 1400px;
+  max-width: 1800px;
   display: flex;
   flex-direction: column;
 }
@@ -41,9 +45,31 @@ body {
 
 /* style for navigation */
 .box_navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
   margin-top: 1%;
   background-color: #000000;
+}
+
+.nav_ul {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2vh 2vw;
+}
+
+.nav_li {
+  margin: 0 3%;
+  white-space:nowrap;
+  flex-wrap: nowrap;
+}
+
+.nav_a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* style for emblems */
@@ -67,6 +93,13 @@ main {
 /* style for site-bar */
 
 /* Стиль для фона и выравнивания самого сайтбара и содержимого */
+  .menu_media {
+    display: none;
+  }
+
+  .siteBarFonNoViev {
+    display: none;
+  }
   .menu {
     width: 20%;
     background-color: #000000;
@@ -124,9 +157,49 @@ main {
   /* style for content */
   .content {
     width: 80%;
-    height: 1000px;
     margin-top: 1%;
     background-color: #000000;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
+  }
+
+  .margin_content {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 5vh 0;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border:  solid #ffffff;
+    padding: 1%;
+    margin-bottom: 3%;
+  }
+
+  .name_post{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body_post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .img_post {
+    width: 30%;
+  }
+
+  .text_post {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
   }

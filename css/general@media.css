@@ -95,6 +95,7 @@
 /* Отображение кнопки сайт-бара */
 /* фон сайт-бара*/
   .site_bar_media-punkt1 {
+    position: absolute;
     display: flex;
     flex-direction: column;
     background-color: #000000;

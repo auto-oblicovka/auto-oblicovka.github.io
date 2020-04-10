@@ -1,0 +1,81 @@
+.tovar {
+  width: 89%;
+  background-color: #000000;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.prevyu_box {
+  display: flex;
+  align-items: center;
+  border: 5px solid #ffffff;
+  width: 40%;
+
+}
+
+.prevyu {
+  width: 100%;
+
+}
+
+.inline {
+
+  display: flex;
+}
+
+.name_tovar {
+  padding-left: 2em;
+}
+
+.text {
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+.cena {
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+.colomn {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.galary_prev {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5em;
+}
+
+.prew {
+  width: 10em;
+  height: 10em;
+  margin: 1em 1em 0 0 ;
+  border: 2px solid #ffffff;
+}
+
+.galaryBox {
+  position:absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
+.proverka {
+  width: 10%;
+  height: 10%;
+  background-color: green;
+  position: absolute;
+}
+
+.fon_gallary {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(54, 54, 54, 0.8);
+}
