@@ -29,12 +29,12 @@
 }
 
 .text {
-  font-size: 2em;
+  font-size: 1em;
   padding-left: 2em;
 }
 
 .cena {
-  font-size: 2em;
+  font-size: 1em;
   padding-left: 2em;
 }
 
@@ -126,5 +126,6 @@
 }
 
 .foto {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
