@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+   <link href="css/general.css" rel="stylesheet">
+   <link href="css/general@media.css" rel="stylesheet">
+   <link href="css/page1point.css" rel="stylesheet">
+   <link href="css/opisanie_tovara.css" rel="stylesheet">
+   <title>Бампер КАМАЗ 6520 рестайл</title>
+   <meta charset="UTF-8">
+ </head>
+
+
+<body>
+  <div class="box">
+
+    <!-- Шапка сайта -->
+        <header class="header"> <!-- Header -->
+          <div class="box_prev-site">
+            <img class="prev-site" src="img/img1.jpg"/>
+          </div>
+          <div class="box_name-site">
+            <img class="name-site" src="img/Shapka.bmp">
+          </div>
+        </header> <!-- Header -->
+    <!-- Шапка сайта -->
+
+    <!-- Навигационная панель -->
+       <nav class="box_navigation"> <!-- Put' stranic-->
+          <div class="nav_ul">
+            <div class="nav_li"><a class="nav_a" href="index.html">ГЛАВНАЯ</a></div>
+            <div class="nav_li">&rarr;</div>
+            <div class="nav_li"><a class="nav_a" href="kamaz_page.html">КАМАЗ</a></div>
+            <div class="nav_li">&rarr;</div>
+            <div class="nav_li"><a class="nav_a" href="kamaz_bamper.html">Бампер KАМАЗ</a></div>
+            <div class="nav_li">&rarr;</div>
+            <div class="nav_li"><a class="nav_a" href="kamaz_bamper_6520restayl.html">Бампер КАМАЗ 6520 рестайл</a></div>
+          </div>
+       </nav> <!-- Put' stranic-->
+
+       <!-- Навигационная панель -->
+
+       <!-- Панелька с эмблемами марок (подумать так ли она необходима )-->
+           <nav class="box_emblems"> <!-- Emblem -->
+             <div>
+               <a href="1.maz_page.html">
+                 <img  class="emblema" src="img/emblem/maz.jpg">
+               </a>
+             </div>
+             <div>
+               <a href="kamaz_page.html">
+                 <img class="emblema" src="img/emblem/kamaz.jpg">
+               </a>
+             </div>
+             <div>
+               <a href="3.gaz_page.html">
+                 <img class="emblema" src="img/emblem/gaz.jpg">
+               </a>
+             </div>
+             <div>
+               <a class="emblem_img" href="4.zil_page.html">
+                 <img class="emblema" src="img/emblem/zil.jpg">
+               </a>
+             </div>
+             <div>
+               <a class="emblem_img" href="5.mtz_page.html">
+                 <img class="emblema" src="img/emblem/mtz.jpg">
+               </a>
+             </div>
+             <div>
+               <a class="emblem_img" href="6.ymaha_page.html">
+                 <img class="emblema" src="img/emblem/yamaha.jpg">
+               </a>
+             </div>
+             <div>
+               <a class="emblem_img" href="7.jcb_page.html">
+                 <img class="emblema" src="img/emblem/jcb.png">
+               </a>
+             </div>
+             <div>
+               <a class="emblem_img" href="8.infiniti_page.html">
+                 <img class="emblema" src="img/emblem/Infiniti.jpeg">
+               </a>
+             </div>
+           </nav> <!-- Emblem -->
+       <!-- Панелька с эмблемами марок (подумать так ли она необходима )-->
+
+       <!-- Блок для сайтбара и контента -->
+           <main>
+
+         <!-- Сайт-бар для версии Descktop -->
+             <div class="menu"> <!-- site bar -->
+               <div class="site_bar-punkt1" id="menu" onmouseover="visibleKamaz()" onmouseout="noVisibleKamaz()">
+                 <a href="kamaz_page.html">
+                   <div class="punkt1">
+                    КАМАЗ
+                   </div>
+                 </a>
+                 <div class="site_bar-punkt1-menu" id="site_bar-kamaz-menu">
+                   <a href="kamaz_bamper.html">
+                     <div class="site_bar-menu-punkt1-1">
+                       Бампер
+                     </div>
+                   </a>
+                   <a href="#">
+                   <div class="site_bar-menu-punkt1-1">
+                     Капот
+                   </div>
+                  </a>
+                  <a href="#">
+                   <div class="site_bar-menu-punkt1-1">
+                     Крылья
+                   </div>
+                 </a>
+                 <a href="#">
+                   <div class="site_bar-menu-punkt1-1">
+                     Подножки
+                   </div>
+                 </a>
+                 <a href="#">
+                   <div class="site_bar-menu-punkt1-1">
+                     Солн. козырек
+                  </div>
+                </a>
+                 </div>
+               </div>
+
+               <div class="site_bar-punkt1" id="menu" onmouseover="visiblemaz()" onmouseout="noVisiblemaz()">
+                 <a href="#">
+                   <div class="punkt1">
+                    МАЗ
+                   </div>
+                 </a>
+                 <div class="site_bar-punkt1-menu" id="site_bar-maz-menu">
+                   <a href="#">
+                     <div class="site_bar-menu-punkt1-1">
+                       Бампер
+                     </div>
+                   </a>
+                   <a href="#">
+                   <div class="site_bar-menu-punkt1-1">
+                     Фары
+                   </div>
+                  </a>
+                 </div>
+               </div>
+             </div> <!-- site bar -->
+             <!-- Сайт-бар для версии Descktop -->
+             <!-- Сайт-бар для мобильной версии -->
+             <div class="menu_media"> <!-- site bar -->
+               <!-- Кнопки для сайтбара -->
+                 <img src="img/icon/Menu-off.jpg" style="display: flex;" id="buttom-off"  onclick="menu()">
+
+                 <img src="img/icon/Menu-on.jpg" style="display: none;" id="buttom-on" onclick="closeMenu()">
+               <!-- Кнопки для сайтбара -->
+             </div> <!-- site bar -->
+             <!-- Сайт-бар для мобильной версии -->
+
+             <!-- Контент страницы -->
+                   <div class="content"> <!-- content -->
+             <!-- Меню сайтбара -->
+                     <div class="siteBarFonNoViev" id="fonSitBar">
+                       <!-- Область для сайт-бара -->
+                       <div class="site_bar_media-punkt1" id="siteBar">
+
+                         <!-- Меню сайт-бара -->
+                         <!-- Пункт первого порядка КАМАЗ -->
+                         <div class="punkt_1">
+                           <a href="kamaz_page.html">
+                           <span class="punkt_1_name">КАМАЗ</span>
+                           </a>
+                           <span class="punkt_1_drop_icon">
+                             <img src="img/icon/dropdownnone.jpg" id="icon_drop_kamaz_close" style="display: block;" onclick="dropMenuKAMAZ()">
+                             <img src="img/icon/dropdown.jpg" id="icon_drop_kamaz_open" style="display: none;" onclick="closeMenuKAMAZ()">
+                           </span>
+                         </div>
+                         <!-- Дроп-меню второго порядка для пункта КАМАЗ -->
+                           <!-- Контейнер для дроп-меню пункта КАМАЗ -->
+                           <div style="display: none;" id="drop_kamaz">
+
+                             <div class="punkt_1_1">
+                               <a href="kamaz_bamper.html">
+                               <span>Бампер</span>
+                               </a>
+                             </div>
+                             <div class="punkt_1_1">
+                               <span>Капот</span>
+                             </div>
+                             <div class="punkt_1_1">
+                               <span>Крылья</span>
+                             </div>
+                             <div class="punkt_1_1">
+                               <span>Подножки</span>
+                             </div>
+                             <div class="punkt_1_1">
+                               <span>Солн. козырьки</span>
+                             </div>
+
+                           </div>
+
+                         <!-- Пункт первого порядка МАЗ -->
+                         <div class="punkt_1">
+                           <span class="punkt_1_name">МАЗ</span>
+                           <span class="punkt_1_drop_icon">
+                             <img src="img/icon/dropdownnone.jpg" id="icon_drop_maz_close" style="display: block;" onclick="dropMenuMAZ()">
+                             <img src="img/icon/dropdown.jpg" id="icon_drop_maz_open" style="display: none;" onclick="closeMenuMAZ()">
+                           </span>
+                         </div>
+
+                         <!-- Дроп-меню второго порядка для пункта МАЗ -->
+                           <!-- Контейнер для дроп-меню пункта МАЗ -->
+                           <div style="display: none;" id="drop_maz">
+
+                             <div class="punkt_1_1">
+                               <span>Бампер</span>
+                             </div>
+                             <div class="punkt_1_1">
+                               <span>Фары</span>
+                             </div>
+
+
+                           </div>
+
+
+                         <!-- Меню сайт-бара -->
+
+
+
+                       </div>
+                       <!-- Область для сайт-бара -->
+                     </div>
+             <!-- Меню сайтбара -->
+    <div class="margin_content">
+      <div class="tovar">
+        <div class="inline"> <!-- Prevyu  -->
+          <div class="prevyu_box" id="see">
+            <img class="prevyu" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/KAMAZ_bamper6520RESTAYL.jpeg">
+          </div>
+          <div class="colomn">
+            <h1 class="name_tovar">Бампер камаз 6520 рестайл</h1>
+            <p class="text">
+              Бампер камаз 6520 рестайл, материал стекловолкно,материал очень крепкий.  Доставка в регионы ТК.
+            </p>
+            <p class="cena">
+              ЦЕНА: 10 000 р.
+            </p>
+          </div>
+        </div> <!-- Prevyu  -->
+        <div class="galary_prev">
+          <img class="prew" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/KAMAZ_bamper6520RESTAYL.jpeg" onclick="see1()">
+          <img class="prew" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img1.jpeg" onclick="see2()">
+          <img class="prew" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img2.jpeg" onclick="see3()">
+          <img class="prew" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img3.jpeg" onclick="see4()">
+        </div>
+      </div> <!-- content -->
+    </div> <!-- content -->
+  </main>
+
+  <footer>
+  �������� �.� +79826900366
+  </footer>
+  </div>
+  <div class="fon_gallary" id="close_gallary" style="display: none">
+   <div class="close_gallary">
+     <img class="close_gallary_icon" src="img/icon/close.jpg"
+      onclick="close_gallary()">
+   </div>
+   <div class="body_gallary">
+     <div class="back_next">
+       <img class="back_next_icon" src="img/icon/back.png" onclick="back()">
+     </div>
+     <div class="see_img" id="see_pictor">
+     </div>
+     <div class="back_next">
+       <img class="back_next_icon" src="img/icon/next.png" onclick="next()">
+     </div>
+   </div>
+  </div>
+  </body>
+  <script src="js/kamaz_bamper_6520restyle.js"></script>
+  <script src="js/general@media.js"></script>
+  <script src="js/general.js"></script>
+  </html>
