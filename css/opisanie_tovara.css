@@ -10,7 +10,7 @@
   .tovar {
     width: 100%;
     background-color: #000000;
-    padding: 3%;
+    padding: 0;
     display: flex;
     flex-direction: column;
   }
@@ -45,6 +45,8 @@
 @media screen  and ( orientation: portrait ) {
   .inline {
     flex-direction: column;
+    align-items: center;
+    padding: 5vh 0;
   }
 }
 
