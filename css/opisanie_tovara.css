@@ -21,7 +21,15 @@
   align-items: center;
   border: 5px solid #ffffff;
   width: 40%;
+}
 
+@media screen  and ( orientation: portrait ) {
+  .prevyu_box {
+    display: flex;
+    align-items: center;
+    border: 5px solid #ffffff;
+    width: 90%;
+  }
 }
 
 .prevyu {
@@ -34,8 +42,21 @@
   display: flex;
 }
 
+@media screen  and ( orientation: portrait ) {
+  .inline {
+    flex-direction: column;
+  }
+}
+
 .name_tovar {
   padding-left: 2em;
+}
+
+@media screen  and ( orientation: portrait ) {
+  .name_tovar {
+    display: flex;
+    text-align: center;
+  }
 }
 
 .text {
@@ -52,6 +73,15 @@
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+
+@media screen  and ( orientation: portrait ) {
+  .colomn {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .galary_prev {
