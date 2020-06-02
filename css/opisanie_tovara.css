@@ -88,8 +88,8 @@
   flex-direction: row;
   justify-content: flex-end;
   background-color: #000000;
-  width: 80vw;
-  margin: 10vh 0 0 0;
+  width: 90vw;
+  margin: 5vh 0 0 0;
   padding: 3vh 3vw;
 }
 
@@ -103,8 +103,8 @@
   justify-content: center;
   background-color: #000000;
   padding: 3vh 3vw;
-  width: 80vw;
-  height: 60vh;
+  width: 90vw;
+  height: 75vh;
 }
 
 .back_next {
