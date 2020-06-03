@@ -3,19 +3,11 @@ let gallary = [];
     closeGallary = document.getElementById('close_gallary');
     see_table = document.getElementById('see_pictor');
 
-gallary[0] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/KAMAZ_bamper5308,4308.jpeg">`;
-gallary[1] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img1.jpeg">`;
-gallary[2] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img2.jpeg">`;
-gallary[3] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img3.jpeg">`;
-gallary[4] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img4.jpeg">`;
-gallary[5] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img5.jpeg">`;
-gallary[6] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img6.jpeg">`;
-gallary[7] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img7.jpeg">`;
-gallary[8] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img8.jpeg">`;
-gallary[9] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img9.jpeg">`;
-gallary[10] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img10.jpeg">`;
-gallary[11] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img11.jpeg">`;
-gallary[12] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper5308,4308/img12.jpeg">`;
+gallary[0] = `<img class="foto" src="Tovar/KAMAZ/SunKozirki/SunKozirkiPlosky/PrevSunKozirki.jpeg">`;
+gallary[1] = `<img class="foto" src="Tovar/KAMAZ/SunKozirki/SunKozirkiPlosky/img1.jpeg">`;
+gallary[2] = `<img class="foto" src="Tovar/KAMAZ/SunKozirki/SunKozirkiPlosky/img2.jpeg">`;
+gallary[3] = `<img class="foto" src="Tovar/KAMAZ/SunKozirki/SunKozirkiPlosky/img3.jpeg">`;
+
 
 function close_gallary() {
   closeGallary.style.display = "none";
@@ -135,15 +127,53 @@ function see13() {
   see(see_img);
   closeGallary.style.display = "flex";
   return i;
-
 }
 
+function see14() {
+  i = 13;
+  see_img = gallary[i];
+  see(see_img);
+  closeGallary.style.display = "flex";
+  return i;
+}
+
+function see15() {
+  i = 14;
+  see_img = gallary[i];
+  see(see_img);
+  closeGallary.style.display = "flex";
+  return i;
+}
+
+function see16() {
+  i = 15;
+  see_img = gallary[i];
+  see(see_img);
+  closeGallary.style.display = "flex";
+  return i;
+}
+
+function see17() {
+  i = 16;
+  see_img = gallary[i];
+  see(see_img);
+  closeGallary.style.display = "flex";
+  return i;
+}
+
+function see18() {
+  i = 17;
+  see_img = gallary[i];
+  see(see_img);
+  closeGallary.style.display = "flex";
+  return i;
+}
 
 function next() {
   i = i + 1;
   see_img = gallary[i];
 
-  if (i<=12) {
+  if (i<=3) {
     see(see_img);
     closeGallary.style.display = "flex";
   } else {
@@ -162,7 +192,7 @@ function back() {
     see(see_img);
     closeGallary.style.display = "flex";
   } else {
-    i = 12;
+    i = 3;
     see_img = gallary[i];
     see(see_img);
     closeGallary.style.display = "flex";
