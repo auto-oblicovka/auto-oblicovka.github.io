@@ -1,23 +1,35 @@
 /* style for page */
 body {
+  margin: 0;
+  padding: 1% 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
   display: flex;
   justify-content: center;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 .box {
-  max-width: 1400px;
+  max-width: 1800px;
   display: flex;
   flex-direction: column;
 }
 
 /* style for header */
-.header {
+header {
   width: 100%;
   background-color: #000000;
-  padding: 1%;
   display: flex;
+}
+
+@media screen  and ( orientation: portrait ) {
+  header {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .box_prev-site {
@@ -42,7 +54,151 @@ body {
 
 /* style for navigation */
 .box_navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
+  margin-top: 1%;
   background-color: #000000;
-  padding: 1%;
 }
+
+.nav_ul {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2vh 2vw;
+}
+
+.nav_li {
+  margin: 0 3%;
+  white-space:nowrap;
+  flex-wrap: nowrap;
+}
+
+.nav_a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+/* style for emblems */
+.box_emblems {
+  width: 100%;
+  margin-top: 1%;
+  background-color: #000000;
+  display: flex;
+}
+
+.emblema {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+
+/* style for site-bar */
+
+.menu_all {
+  display: flex;
+  width: 15%;
+  align-items: stretch;
+  padding: 0 3% 0 0;
+}
+
+.menu_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  align-items: stretch;
+}
+
+.punkt1 {
+  padding-left: 5%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 2em;
+}
+
+.punkt2 {
+  padding-left: 10%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 1.5em;
+}
+
+.border_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border {
+  width: 90%;
+  height: 0.1vh;
+  background-color: #545454;
+}
+
+  /* style for content */
+  .content {
+    width: 90%;
+    margin-top: 1%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .margin_content {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0.1vh 0;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border:  solid #ffffff;
+    padding: 1%;
+    margin-bottom: 3%;
+    font-size: 1em;
+  }
+
+  .name_post{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body_post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .img_post {
+    width: 30%;
+  }
+
+  .text_post {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    font-size: 1em;
+  }
+
+  footer {
+    display: flex;
+  }
