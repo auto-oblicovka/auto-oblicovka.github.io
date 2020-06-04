@@ -3,13 +3,13 @@ let gallary = [];
     closeGallary = document.getElementById('close_gallary');
     see_table = document.getElementById('see_pictor');
 
-gallary[0] = `<img class="foto" src="Tovar/MAZ/Bamper/Prostor/Prev_bamper_prostor.jpeg">`;
-gallary[1] = `<img class="foto" src="Tovar/MAZ/Bamper/Prostor/img1.jpeg">`;
-gallary[2] = `<img class="foto" src="Tovar/MAZ/Bamper/Prostor/img2.jpeg">`;
-gallary[3] = `<img class="foto" src="Tovar/MAZ/Bamper/Prostor/img3.jpeg">`;
-gallary[4] = `<img class="foto" src="Tovar/MAZ/Bamper/Prostor/img4.jpeg">`;
-gallary[5] = `<img class="foto" src="Tovar/MAZ/Bamper/Prostor/img5.jpeg">`;
-gallary[6] = `<img class="foto" src="Tovar/MAZ/Bamper/Prostor/img6.jpeg">`;
+gallary[0] = `<img class="foto" src="Tovar/MAZ/Bamper/New_Prostor/Prev_bamper_prostor.jpeg">`;
+gallary[1] = `<img class="foto" src="Tovar/MAZ/Bamper/New_Prostor/img1.jpeg">`;
+gallary[2] = `<img class="foto" src="Tovar/MAZ/Bamper/New_Prostor/img2.jpeg">`;
+gallary[3] = `<img class="foto" src="Tovar/MAZ/Bamper/New_Prostor/img3.jpeg">`;
+gallary[4] = `<img class="foto" src="Tovar/MAZ/Bamper/New_Prostor/img4.jpeg">`;
+gallary[5] = `<img class="foto" src="Tovar/MAZ/Bamper/New_Prostor/img5.jpeg">`;
+gallary[6] = `<img class="foto" src="Tovar/MAZ/Bamper/New_Prostor/img6.jpeg">`;
 
 
 function close_gallary() {
