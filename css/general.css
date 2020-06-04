@@ -199,6 +199,18 @@ main {
     font-size: 1em;
   }
 
+.video_box {
+  display: flex;
+  width: 100%;
+  margin-top: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+  .video {
+    width: 50vw;
+  }
+
   footer {
     display: flex;
   }
