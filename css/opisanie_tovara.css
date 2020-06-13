@@ -223,3 +223,9 @@
   margin: 5vh 0;
   border-radius: 4vw;
 }
+
+video {
+  width: 731.25em;
+  height: 41em;
+  border: solid #ffffff;
+}
