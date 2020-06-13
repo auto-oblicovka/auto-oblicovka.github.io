@@ -229,3 +229,11 @@ video {
   height: 41em;
   border: solid #ffffff;
 }
+
+@media screen  and ( orientation: portrait ) {
+  video {
+    width: 731.25em;
+    height: 41em;
+    border: solid #ffffff;
+  }
+}
