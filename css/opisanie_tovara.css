@@ -232,8 +232,8 @@ video {
 
 @media screen  and ( orientation: portrait ) {
   video {
-    width: 60vw;
-    height: 33.75vw;
+    width: 90vw;
+    height: 50.625vw;
     border: solid #ffffff;
   }
 }
