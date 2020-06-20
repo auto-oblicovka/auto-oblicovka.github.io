@@ -3,10 +3,12 @@ let gallary = [];
     closeGallary = document.getElementById('close_gallary');
     see_table = document.getElementById('see_pictor');
 
-gallary[0] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/KAMAZ_bamper6520RESTAYL.jpeg">`;
-gallary[1] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img1.jpeg">`;
-gallary[2] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img2.jpeg">`;
-gallary[3] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img3.jpeg">`;
+gallary[0] = `<img class="foto" src="Tovar/MAZ/Fari/Vstavki_pod_fary_VAZ-2106_v_ugli_bampera_MAZ_Prostor/prew.jpeg">`;
+gallary[1] = `<img class="foto" src="Tovar/MAZ/Fari/Vstavki_pod_fary_VAZ-2106_v_ugli_bampera_MAZ_Prostor/img1.jpeg">`;
+gallary[2] = `<img class="foto" src="Tovar/MAZ/Fari/Vstavki_pod_fary_VAZ-2106_v_ugli_bampera_MAZ_Prostor/img2.jpeg">`;
+gallary[3] = `<img class="foto" src="Tovar/MAZ/Fari/Vstavki_pod_fary_VAZ-2106_v_ugli_bampera_MAZ_Prostor/img3.jpeg">`;
+gallary[4] = `<img class="foto" src="Tovar/MAZ/Fari/Vstavki_pod_fary_VAZ-2106_v_ugli_bampera_MAZ_Prostor/img4.jpeg">`;
+
 
 
 function close_gallary() {
@@ -135,7 +137,7 @@ function next() {
   i = i + 1;
   see_img = gallary[i];
 
-  if (i<=3) {
+  if (i<=4) {
     see(see_img);
     closeGallary.style.display = "flex";
   } else {
@@ -154,7 +156,7 @@ function back() {
     see(see_img);
     closeGallary.style.display = "flex";
   } else {
-    i = 3;
+    i = 4;
     see_img = gallary[i];
     see(see_img);
     closeGallary.style.display = "flex";
