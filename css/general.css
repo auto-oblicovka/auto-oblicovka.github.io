@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: Verdana, Helvetica, Arial, sans-serif;
+  line-height: 32pt;
 }
 
 .box {
