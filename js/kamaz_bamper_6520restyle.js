@@ -3,10 +3,10 @@ let gallary = [];
     closeGallary = document.getElementById('close_gallary');
     see_table = document.getElementById('see_pictor');
 
-gallary[0] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/KAMAZ_bamper6520RESTAYL.jpeg">`;
-gallary[1] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img1.jpeg">`;
-gallary[2] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img2.jpeg">`;
-gallary[3] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayl/img3.jpeg">`;
+gallary[0] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayle/KAMAZ_bamper6520restayle.jpeg">`;
+gallary[1] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayle/img1.jpeg">`;
+gallary[2] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayle/img2.jpeg">`;
+gallary[3] = `<img class="foto" src="Tovar/KAMAZ/Bamper/Bamper6520restayle/img3.jpeg">`;
 
 
 function close_gallary() {

@@ -1,99 +1,51 @@
-let menu_all = document.getElementById('menu_all');
+let menu_all = document.querySelector('.site_bar_box');
+
 
 menu_all.innerHTML = `
 <div class="menu_box">
 
   <div id="focus">
+    <a href="kamaz_page.html" style="text-decoration: none; color: #ffffff">
     <div class="punkt1">
       КАМАЗ
     </div>
+    </a>
 
     <div class="border_box">
       <div class="border">
       </div>
     </div>
   </div>
-  <div id="focus">
-    <div class="punkt2">
-      Бампер
-    </div>
-    <div class="border_box">
-      <div class="border">
-      </div>
-    </div>
-  </div>
 
-
-  <div class="punkt2">
-    Капот
-  </div>
-
-  <div class="border_box">
-    <div class="border">
-    </div>
-  </div>
-
-  <div class="punkt2">
-    Крылья
-  </div>
-
-  <div class="border_box">
-    <div class="border">
-    </div>
-  </div>
-
-  <div class="punkt2">
-    Подножки
-  </div>
-
-  <div class="border_box">
-    <div class="border">
-    </div>
-  </div>
-
-  <div class="punkt2">
-    Сол. козырек
-  </div>
-
-  <div class="border_box">
-    <div class="border">
-    </div>
-  </div>
-
+  <a href="maz_page.html" style="text-decoration: none; color: #ffffff">
   <div class="punkt1">
     МАЗ
   </div>
+  </a>
 
   <div class="border_box">
     <div class="border">
     </div>
   </div>
 
-  <div class="punkt2">
-    Бампер
-  </div>
 
-  <div class="border_box">
-    <div class="border">
-    </div>
-  </div>
-
-  <div class="punkt2">
-    Фары
-  </div>
-
-  <div class="border_box">
-    <div class="border">
-    </div>
-  </div>
 
 </div> <!-- menu_box -->
 `;
 
-function onFocus() {
+let menuOff = document.getElementById('menu-off');
+    menuOn = document.getElementById('menu-on');
 
+    boxMENU = document.querySelector('.tovar');
+
+function onClick() {
+  menuOff.className = "iconMenu neVidno";
+  menuOn.className = "iconMenu vidno";
+  menu_all.style = "display: flex";
 }
 
-function ofFocus() {
-
+function offClick() {
+  menuOff.className = "iconMenu vidno";
+  menuOn.className = "iconMenu neVidno";
+  menu_all.style = "display: none";
 }
