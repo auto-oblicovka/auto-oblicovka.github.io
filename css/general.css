@@ -11,6 +11,12 @@ body {
   line-height: 32pt;
 }
 
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .box {
   max-width: 1800px;
   display: flex;
@@ -239,9 +245,8 @@ main {
     }
   }
 
-  /*.post {
+  .post {
     display: flex;
-    flex-direction: wrap;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 97%;
@@ -249,7 +254,14 @@ main {
     padding: 1%;
     margin-bottom: 3%;
     font-size: 1em;
-  } */
+  }
+
+  @media screen  and ( orientation: portrait ) {
+    .post {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 
   .name_post{
     display: flex;
