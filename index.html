@@ -3,6 +3,8 @@
  <head>
    <link href="css/general.css" rel="stylesheet">
    <link href="css/general@media.css" rel="stylesheet">
+   <link href="css/opisanie_tovara.css" rel="stylesheet">
+   <link href="css/page1point.css" rel="stylesheet">
    <title>АВТО-ОБЛИЦОВКА</title>
    <meta charset="utf-8">
  </head>
@@ -13,12 +15,18 @@
 
 
 <!-- Шапка сайта -->
-    <header class="header"> <!-- Header -->
+    <header> <!-- Header -->
       <div class="box_prev-site">
         <img class="prev-site" src="img/img1.jpg"/>
       </div>
       <div class="box_name-site">
-        <img class="name-site" src="img/Shapka.bmp">
+        <div class="boxINstring">
+          <img class="iconMenu" src="img/icon/Menu-off.jpg"  onclick="onClick()" id="menu-off"/>
+          <img class="iconMenu neVidno" src="img/icon/Menu-on.jpg"  onclick="offClick()" id="menu-on"/>
+        </div>
+        <div class="boxINstring">
+          <img class="name-site" src="img/Shapka.bmp">
+        </div>
       </div>
     </header> <!-- Header -->
 <!-- Шапка сайта -->
@@ -26,7 +34,7 @@
 <!-- Навигационная панель -->
     <nav class="box_navigation"> <!-- Put' stranic-->
      <div class="nav_ul">
-      <div class="nav_li"><a class="nav_a" href="index.html">ГЛАВНАЯ</a></div>
+      <div class="nav_li">ГЛАВНАЯ</div>
     </div>
     </nav> <!-- Put' stranic-->
 
@@ -77,238 +85,81 @@
     </nav> <!-- Emblem -->
 <!-- Панелька с эмблемами марок (подумать так ли она необходима )-->
 <!-- Блок для сайтбара и контента -->
-    <main>
+      <main>
 
-<<<<<<< HEAD
-<!-- Сайт-бар -->
-<div class="menu_all" id="menu_all">
+        <div class="site_bar_box">
 
-</div>
-<!-- Cайт-бара -->
-      <div class="margin_content">
-        <a href="kamaz_page.html">
-        <div class="post">
-          <div class="name_post">
-            <h1>КАМАЗ</h1>
-          </div>
-          <div class="body_post">
-            <img class="img_post" src="img/Index_page_img/KAMAZ.jpeg">
-            <span class="text_post">
-              балаблаб алабала балаб алабалабабалбалл абабаббаллаюб албаблабалб
-              албалбалбал ббаллбаббаллаббал лббалбалббалбаллб абаллбалббал
-              блабалбалбалбалб алб баллбаббалл аббаллббалбал
-              ббалбаллб абаллбалббал
-            </span>
-          </div>
-        </div>
-       </a>
-        <div class="post">
-          <div class="name_post">
-            <h1>МАЗ</h1>
-          </div>
-          <div class="body_post">
-            <img class="img_post" src="img/Index_page_img/MAZ.jpg">
-            <span class="text_post">
-              балаблабалабала балаб алабалабабалбалл абабаббаллаюбалбаблабалб
-              албалбалба лббаллбаббаллаббалл ббалбалббалбалл бабаллбалббал
-              блабалбалбалбалб алб баллбаббалл аббаллббалбал
-              ббалбаллбабаллбалббал
-            </span>
-          </div>
-        </div>
-       </div>
-     <!-- content -->
-<!-- Контент страницы -->
-=======
-  <!-- Сайт-бар для версии Descktop -->
-      <div class="menu"> <!-- site bar -->
-        <div class="site_bar-punkt1" id="menu" onmouseover="visibleKamaz()" onmouseout="noVisibleKamaz()">
-          <a href="kamaz_page.html">
-            <div class="punkt1">
-             КАМАЗ
-            </div>
-          </a>
-          <div class="site_bar-punkt1-menu" id="site_bar-kamaz-menu">
-            <a href="kamaz_bamper.html">
-              <div class="site_bar-menu-punkt1-1">
-                Бампер
-              </div>
-            </a>
-            <a href="#">
-            <div class="site_bar-menu-punkt1-1">
-              Капот
-            </div>
-           </a>
-           <a href="#">
-            <div class="site_bar-menu-punkt1-1">
-              Крылья
-            </div>
-          </a>
-          <a href="#">
-            <div class="site_bar-menu-punkt1-1">
-              Подножки
-            </div>
-          </a>
-          <a href="#">
-            <div class="site_bar-menu-punkt1-1">
-              Солн. козырек
-           </div>
-         </a>
-          </div>
         </div>
 
-        <div class="site_bar-punkt1" id="menu" onmouseover="visiblemaz()" onmouseout="noVisiblemaz()">
-          <a href="#">
-            <div class="punkt1">
-             МАЗ
-            </div>
-          </a>
-          <div class="site_bar-punkt1-menu" id="site_bar-maz-menu">
-            <a href="#">
-              <div class="site_bar-menu-punkt1-1">
-                Бампер
-              </div>
-            </a>
-            <a href="#">
-            <div class="site_bar-menu-punkt1-1">
-              Фары
-            </div>
-           </a>
-          </div>
-        </div>
-      </div> <!-- site bar -->
-      <!-- Сайт-бар для версии Descktop -->
-      <!-- Сайт-бар для мобильной версии -->
-      <div class="menu_media"> <!-- site bar -->
-        <!-- Кнопки для сайтбара -->
-          <img src="img/icon/Menu-off.jpg" style="display: flex;" id="buttom-off"  onclick="menu()">
+        <div class="margin_content">
 
-          <img src="img/icon/Menu-on.jpg" style="display: none;" id="buttom-on" onclick="closeMenu()">
-        <!-- Кнопки для сайтбара -->
-      </div> <!-- site bar -->
-      <!-- Сайт-бар для мобильной версии -->
-<!-- Контент страницы -->
-      <div class="content"> <!-- content -->
-<!-- Меню сайтбара -->
-        <div class="siteBarFonNoViev" id="fonSitBar">
-          <!-- Область для сайт-бара -->
-          <div class="site_bar_media-punkt1" id="siteBar">
 
-            <!-- Меню сайт-бара -->
-            <!-- Пункт первого порядка КАМАЗ -->
-            <div class="punkt_1">
-              <a href="kamaz_page.html">
-              <span class="punkt_1_name">КАМАЗ</span>
-            </a>
-              <span class="punkt_1_drop_icon">
-                <img src="img/icon/dropdownnone.jpg" id="icon_drop_kamaz_close" style="display: block;" onclick="dropMenuKAMAZ()">
-                <img src="img/icon/dropdown.jpg" id="icon_drop_kamaz_open" style="display: none;" onclick="closeMenuKAMAZ()">
-              </span>
+          <div class="tovar">
+
+            <div class="razdelitel">
             </div>
-            <!-- Дроп-меню второго порядка для пункта КАМАЗ -->
-              <!-- Контейнер для дроп-меню пункта КАМАЗ -->
-              <div style="display: none;" id="drop_kamaz">
 
-                <div class="punkt_1_1">
-                  <a href="kamaz_bamper.html">
-                  <span>Бампер</span>
-                  </a>
-                </div>
-                <div class="punkt_1_1">
-                  <span>Капот</span>
-                </div>
-                <div class="punkt_1_1">
-                  <span>Крылья</span>
-                </div>
-                <div class="punkt_1_1">
-                  <span>Подножки</span>
-                </div>
-                <div class="punkt_1_1">
-                  <span>Солн. козырьки</span>
-                </div>
+            <div class="privet">
+              <h1>МЫ РАДЫ ВАС ВИДЕТЬ !</h1>
+            </div>
+
+            <div class="privet">
+              <h2>Добро пожаловать на наш сайт.</h2>
+            </div>
+            <div class="privet">
+              <h2 style="text-align: center; width: 70%;">Вашему вниманию мы готовы предложить облицовочные детели
+                 для автомобилей марки
+                 <a href="kamaz_page.html" style="color: #ffffff;">
+                   КАМАЗ
+                 </a>
+                 и
+                 <a href="maz_page.html" style="color: #ffffff;">
+                   МАЗ
+                 </a>.</h2>
+            </div>
+            <div class="privet">
+              <img src="img/Index_page_img/kamaz-maz.jpeg" style="width: 100%; border-radius:5vw;"/>
+            </div>
+
+            <div class="razdelitel">
+            </div>
+
+            <div style="display: flex; flex-direction: row;">
+              <div class="privet" style="width: 50%;">
+                <h2>Вся продукция изготовлена из стекловолокна. Материал очень прочный.</h2>
 
               </div>
 
-            <!-- Пункт первого порядка МАЗ -->
-            <div class="punkt_1">
-              <span class="punkt_1_name">МАЗ</span>
-              <span class="punkt_1_drop_icon">
-                <img src="img/icon/dropdownnone.jpg" id="icon_drop_maz_close" style="display: block;" onclick="dropMenuMAZ()">
-                <img src="img/icon/dropdown.jpg" id="icon_drop_maz_open" style="display: none;" onclick="closeMenuMAZ()">
-              </span>
-            </div>
-
-            <!-- Дроп-меню второго порядка для пункта МАЗ -->
-              <!-- Контейнер для дроп-меню пункта МАЗ -->
-              <div style="display: none;" id="drop_maz">
-
-                <div class="punkt_1_1">
-                  <span>Бампер</span>
-                </div>
-                <div class="punkt_1_1">
-                  <span>Фары</span>
-                </div>
-
+              <div class="privet" style="width: 50%;">
+                <h2>Доставка по всей России через транспортные компании.</h2>
 
               </div>
 
+            </div>
+            <div style="display: flex; flex-direction: row;">
+              <div class="privet" style="width: 50%; align-items: center;">
+                <img src="img/Index_page_img/offroad.jpg" style="width: 90%; border-radius: 5vw;"/>
+              </div>
+              <div class="privet" style="width: 50%; align-items: center;">
+                <img src="img/Index_page_img/Perevozki.-Delovye-linii.jpg" style="width: 90%;  border-radius: 5vw;"/>
+             </div>
+            </div>
 
-            <!-- Меню сайт-бара -->
-
->>>>>>> d016996c420b0c662611564e89a850a256ce5c70
+            <div class="razdelitel">
+            </div>
 
 
           </div>
-          <!-- Область для сайт-бара -->
+
         </div>
-<!-- Меню сайтбара -->
-      <div class="margin_content">
-        <a href="kamaz_page.html">
-        <div class="post">
-          <div class="name_post">
-            <h1>КАМАЗ</h1>
-          </div>
-          <div class="body_post">
-            <img class="img_post" src="img/Index_page_img/KAMAZ.jpeg">
-            <span class="text_post">
-              балаблаб алабала балаб алабалабабалбалл абабаббаллаюб албаблабалб
-              албалбалбал ббаллбаббаллаббал лббалбалббалбаллб абаллбалббал
-              блабалбалбалбалб алб баллбаббалл аббаллббалбал
-              ббалбаллб абаллбалббал
-            </span>
-          </div>
-        </div>
-       </a>
-        <div class="post">
-          <div class="name_post">
-            <h1>МАЗ</h1>
-          </div>
-          <div class="body_post">
-            <img class="img_post" src="img/Index_page_img/MAZ.jpg">
-            <span class="text_post">
-              балаблабалабала балаб алабалабабалбалл абабаббаллаюбалбаблабалб
-              албалбалба лббаллбаббаллаббалл ббалбалббалбалл бабаллбалббал
-              блабалбалбалбалб алб баллбаббалл аббаллббалбал
-              ббалбаллбабаллбалббал
-            </span>
-          </div>
-        </div>
-       </div>
-      </div>
-     <!-- content -->
-<!-- Контент страницы -->
 
- </main>
- <!-- Блок для сайтбара и контента -->
- <footer>
-  �������� �.� +79826900366
- </footer>
-</div>
-</body>
-<script src="js/general@media.js"></script>
-<script src="js/general.js"></script>
-<<<<<<< HEAD
-<script src="js/site-bar.js"></script>
-=======
->>>>>>> d016996c420b0c662611564e89a850a256ce5c70
-</html>
+      </main>
+      <footer>
+       <span style="width: 90%;">Для получения подробной информации или оформления заказа звоните по номеру :</span>
+       <span style="font-size: 2em; width: 90%;"> +7 (982) 690-03-66</span>
+      </footer>
+
+    </div>
+     </body>
+     <script src="js/site-bar.js"></script>
+     </html>
