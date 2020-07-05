@@ -9,7 +9,7 @@ let kamaz = [];
                            }
    kamaz[1] = zadKrilo5308 = {
                             url: 'kamaz_krilo_5308,4308.html',
-                           name: 'Заднее крыло КАМАЗ 5308, 4308',
+                           name: 'Заднее крыло КАМАЗ 5308,4308',
                          urlIMG: 'Tovar/KAMAZ/Krilo/ZadKrilo5308,4308/PrevZadKrilo5308,4308.jpeg',
                            cena: '5 000',
                             teg: ['zadKrilo5308', '5308', 'kamaz', 'kamazKrilo',],

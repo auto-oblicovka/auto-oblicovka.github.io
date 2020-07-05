@@ -41,11 +41,11 @@ let menuOff = document.getElementById('menu-off');
 function onClick() {
   menuOff.className = "iconMenu neVidno";
   menuOn.className = "iconMenu vidno";
-  menu_all.style = "display: flex";
+  menu_all.className = "site_bar_box site_bar_box_media_on";
 }
 
 function offClick() {
   menuOff.className = "iconMenu vidno";
   menuOn.className = "iconMenu neVidno";
-  menu_all.style = "display: none";
+  menu_all.className = "site_bar_box site_bar_box_media_off";
 }
