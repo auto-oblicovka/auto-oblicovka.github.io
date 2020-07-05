@@ -140,8 +140,17 @@ main {
 }
 
 @media screen  and ( orientation: portrait ) {
-  .site_bar_box {
+  .site_bar_box_media_off {
     display: none;
+    width: 50%;
+    border: solid #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+  }
+  .site_bar_box_media_on {
+    display: flex;
     width: 50%;
     border: solid #ffffff;
     position: absolute;
