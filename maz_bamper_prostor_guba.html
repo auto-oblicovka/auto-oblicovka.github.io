@@ -14,14 +14,20 @@
    <div class="box">
 
      <!-- Шапка сайта -->
-         <header class="header"> <!-- Header -->
-           <div class="box_prev-site">
-             <img class="prev-site" src="img/img1.jpg"/>
-           </div>
-           <div class="box_name-site">
-             <img class="name-site" src="img/Shapka.bmp">
-           </div>
-         </header> <!-- Header -->
+     <header> <!-- Header -->
+       <div class="box_prev-site">
+         <img class="prev-site" src="img/img1.jpg"/>
+       </div>
+       <div class="box_name-site">
+         <div class="boxINstring">
+           <img class="iconMenu" src="img/icon/Menu-off.jpg"  onclick="onClick()" id="menu-off"/>
+           <img class="iconMenu neVidno" src="img/icon/Menu-on.jpg"  onclick="offClick()" id="menu-on"/>
+         </div>
+         <div class="boxINstring">
+           <img class="name-site" src="img/Shapka.bmp">
+         </div>
+       </div>
+     </header> <!-- Header -->
      <!-- Шапка сайта -->
 
      <!-- Навигационная панель -->
@@ -84,7 +90,9 @@
 
         <!-- Блок для сайтбара и контента -->
             <main>
+              <div class="site_bar_box site_bar_box_media_off">
 
+              </div>
 
 
 
@@ -150,7 +158,8 @@
     </main>
 
     <footer>
-     �������� �.� +79826900366
+     <span style="width: 90%;">Для получения подробной информации или оформления заказа звоните по номеру :</span>
+     <span style="font-size: 2em; width: 90%;"> +7 (982) 690-03-66</span>
     </footer>
     </div>
     <div class="fon_gallary" id="close_gallary" style="display: none">
@@ -174,4 +183,5 @@
    <script src="js/general@media.js"></script>
    <script src="js/general.js"></script>
    <script src="js/related.js"></script>
+   <script src="js/site-bar.js"></script>
    </html>
