@@ -15,12 +15,14 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
 }
 
 .box {
   max-width: 1800px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* style for header */
@@ -45,6 +47,14 @@ header {
   align-items: center;
 }
 
+@media screen  and ( orientation: portrait ) {
+  .box_prev-site {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .prev-site {
   width: 100%;
 }
@@ -55,6 +65,14 @@ header {
   align-items: center;
 }
 
+@media screen  and ( orientation: portrait ) {
+  .box_name-site {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .iconMenu {
   display: none;
 }
@@ -62,7 +80,7 @@ header {
 @media screen  and ( orientation: portrait ) {
   .iconMenu {
     display: flex;
-    width:40%;
+    width:80%;
   }
 
   .neVidno {
@@ -233,6 +251,16 @@ main {
     margin: 0.1vh 0;
   }
 
+  @media screen  and ( orientation: portrait ) {
+    .margin_content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+      margin: 0.1vh 0;
+    }
+  }
+
   .tovar {
     width: 93%;
     background-color: #000000;
@@ -253,6 +281,36 @@ main {
       justify-content: center;
     }
   }
+
+  .inLine {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .stolbec {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: rgba(57, 57, 57, 0.6);
+  }
+
+  .img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+  }
+
 
   .post {
     display: flex;
